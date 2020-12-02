@@ -1,0 +1,27 @@
+COEN177L lab7
+
+Part 1 step by step process:
+1. Use the command cd /usr/src to get to the source folder
+2. Next use the command cd kernel to enter the kernel directory
+3. Locate the file proc.c and open it using the vi text editor
+4. Locate the pick_proc function and add in the code 
+
+int random;	// Random integer between 0 and 100
+for(q = 0; q < NR_SCHED_QUEUES; q++) {
+		random = rand() % 100; // Initialize value of variable random
+		if (randome < 16) // Modify behavior of scheduler
+			q = randome;
+		else 	// Do not modify behavior of scheduler
+			q = 0;
+
+			// Rest of pick_proc code
+
+}
+
+5. Save edits and return to /usr/src directory
+6. Recompile MINIX using the make world command and reboot
+
+Part 2 observations:
+•After recompiling and rebooting, MINIX ran much slower than normal
+•All of the traditional Unix commands worked fine
+•Reboot took a very long timex
