@@ -1,0 +1,3 @@
+Observations:
+• The main thread can finish before some of the child threads run
+• This is because The main thread no longer has to wait for the children threads to finish 

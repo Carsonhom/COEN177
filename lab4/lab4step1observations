@@ -1,0 +1,8 @@
+Observations:
+• The threads run out of order and sometimes two threads have the same number
+• The thread order changes each time the program is run
+• The results are the same if there as some other demanding task running
+• The go parameter variable arg is a per thread variable
+• The computer stores arg in the TCB
+• The global variable i is a shared state
+
