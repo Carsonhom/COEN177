@@ -1,0 +1,18 @@
+Step 3:
+• Parent and children processes take turns running and printing out
+• Sometimes child or parent process will run for loop twice in a row without waiting for the other to run
+	• This happened 3 times
+Step 4:
+3000 microsecond delay
+• The program ran similar to step 3
+• 3 times when either the parent or child would run for loop twice in a row
+	• These happened during later cycles
+500 microsecond delay
+• Program runs without the child or parent process printing out twice in a row
+5000 microsecond delay
+• Program runs with 1 instance where the parent process runs twice in a row
+
+Step 6:
+• The program ran as expected with a delay of 500 microseconds
+
+• Without any delay, the program failed to run and returned a segmentation fault
