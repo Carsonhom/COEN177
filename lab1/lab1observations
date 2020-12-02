@@ -1,0 +1,4 @@
+Observations:
+•In order to calculate the are of a circle, I first calculated the square of the radius given by the user as variable rsq
+•Then I used echo to input the equation 3.14 * $rsq into the bc command which allowed the shell program to calculate the area of a circle with floating point precision
+•When the loop which calculates the area of a rectangle asks for Yes/No, answers must be case sensitive and any answer which is not a no counts as a yes
