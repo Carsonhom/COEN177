@@ -1,0 +1,5 @@
+Observations:
+• There are 10 threads
+• The values of i go from 0 to 9
+• The numbers and threads are printed out of order
+• This is because the processes run asynchronously and dont wait for eachother before terminating
